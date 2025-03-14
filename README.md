@@ -10,7 +10,7 @@ A modern **Tic-Tac-Toe** game built with **React**! 🚀
 ✅ Clear winner announcement & restart option 🔄
 
 ## 🚀 Live Demo
-🔗 [Play Tic-Tac-Toe](your-live-demo-link)
+🔗 [Play Tic-Tac-Toe](https:/erfanmazid.github.io/tic-tac-toe/)
 
 ## 🛠 Installation & Setup
 Clone the repository and run it locally:
