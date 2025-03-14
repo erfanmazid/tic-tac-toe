@@ -4,7 +4,7 @@ export default function ResultModal({ winner, closeModal, reset }) {
 
   return (
     <div className="w-full h-full flex justify-center items-center fixed top-0 left-0 bg-slate-700 bg-opacity-50">
-      <div className="w-[400px] h-[200px] bg-white rounded-lg flex justify-around items-center flex-col ">
+      <div className="w-[320px] h-[170px] bg-white rounded-lg flex justify-around items-center flex-col ">
         <div>
           {winner !== null ? (
             <h2 className="text-2xl font-bold text-indigo-800">

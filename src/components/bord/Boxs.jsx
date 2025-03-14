@@ -118,10 +118,10 @@ export default function Boxs() {
         squares[a] === squares[b] &&
         squares[a] === squares[c]
       ) {
-        return squares[a]; // بازیکنی که برده است
+        return squares[a];
       }
     }
-    return null; // برنده‌ای وجود ندارد
+    return null;
   };
 
   return (
@@ -151,10 +151,18 @@ export default function Boxs() {
       )}
       <div className="flex justify-center items-center flex-col h-full">
         <div className="w-full flex justify-center items-center gap-6">
-          <img src="/src/assets/X.png" alt="playerX" />
-          <img src="/src/assets/O.png" alt="playerO" />
+          <img
+            src="/src/assets/X.png"
+            alt="playerX"
+            className="w-20 h-20 lg:w-36 lg:h-36"
+          />
+          <img
+            src="/src/assets/O.png"
+            alt="playerO"
+            className="w-20 h-20 lg:w-36 lg:h-36"
+          />
         </div>
-        <div className="lg:w-[500px] lg:h-[500px] border-[10px] border-black rounded-md bg-white grid grid-cols-3 p-12 my-7">
+        <div className="w-[300px] h-[300px] p-6 lg:w-[500px] lg:h-[500px] border-[10px] border-black rounded-md bg-white grid grid-cols-3 place-items-center lg:p-12 my-7">
           {box.map((value, index) => (
             <SingleBox
               key={index}

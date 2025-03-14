@@ -7,7 +7,7 @@ export default function StepsModal({ closeModal, history, handleStepClick }) {
 
   return (
     <div className="w-screen h-screen fixed inset-0 flex justify-center items-center bg-gray-700 bg-opacity-50">
-      <div className="bg-white w-96 h-[70%] rounded-lg p-6 flex justify-start items-center flex-col gap-4 relative">
+      <div className="bg-white w-80 h-[70%] rounded-lg p-6 flex justify-start items-center flex-col gap-4 relative">
         <div className="w-full text-center ">
           <h2 className="text-2xl font-bold text-[#FBB500]">Game Steps</h2>
         </div>
