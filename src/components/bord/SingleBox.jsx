@@ -9,12 +9,12 @@ export default function SingleBox({ value, onClick }) {
         value
       ) : value === "X" ? (
         <img
-          src="/src/assets/X-O/X.png"
+          src="/tic-tac-toe/src/assets/X-O/X.png"
           className="w-10 h-10 lg:w-20 lg:h-20"
         />
       ) : (
         <img
-          src="/src/assets/X-O/O.png"
+          src="/tic-tac-toe/src/assets/X-O/O.png"
           className="w-10 h-10 lg:w-20 lg:h-20"
         />
       )}
