@@ -152,12 +152,12 @@ export default function Boxs() {
       <div className="flex justify-center items-center flex-col h-full">
         <div className="w-full flex justify-center items-center gap-6">
           <img
-            src="/tic-tac-toe/src/assets/X.png"
+            src="/tic-tac-toe/X.png"
             alt="playerX"
             className="w-20 h-20 lg:w-36 lg:h-36"
           />
           <img
-            src="/tic-tac-toe/src/assets/O.png"
+            src="/tic-tac-toe/O.png"
             alt="playerO"
             className="w-20 h-20 lg:w-36 lg:h-36"
           />
