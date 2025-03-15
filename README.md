@@ -27,7 +27,7 @@ npm install
 # Start the development server
 npm start
 ```
-Then, open `http://localhost:3000/` in your browser.
+Then, open `http://localhost:5173/` in your browser.
 
 ## 🎮 How to Play
 1️⃣ Player 1 (X) and Player 2 (O) take turns marking spaces in a 3×3 grid.
